@@ -1,3 +1,4 @@
+import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -16,6 +17,14 @@ export default function Home() {
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
               <Image src={profilePic} alt='Ruben Sánchez' className='w-full h-auto' />
+            </div>
+            <div>
+              <AnimatedText text="Extremely motivated web developer" />
+              <p>
+                I am a web developer with a passion for learning new technologies and
+                creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype
+                to the final product.
+              </p>
             </div>
           </div>
         </Layout>
