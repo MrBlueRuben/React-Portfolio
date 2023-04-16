@@ -19,7 +19,7 @@ export default function Home() {
               <Image src={profilePic} alt='Ruben Sánchez' className='w-full h-auto' />
             </div>
             <div>
-              <AnimatedText text="Extremely motivated web developer" />
+              <AnimatedText text="Extremely motivated web developer" className='!text-6xl'/>
               <p>
                 I am a web developer with a passion for learning new technologies and
                 creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype
