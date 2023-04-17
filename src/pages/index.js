@@ -2,6 +2,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link';
 import profilePic from "public/RubenNoBg.png";
 
 
@@ -20,11 +21,17 @@ export default function Home() {
             </div>
             <div>
               <AnimatedText text="Extremely motivated web developer" className='!text-6xl !text-left'/>
-              <p>
+              <p className='my-4 text-base font-medium'>
                 I am a web developer with a passion for learning new technologies and
                 creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype
                 to the final product.
               </p>
+              <div>
+                <Link href="/RubenSanchez.pdf" target={"_blank"}>Resume</Link>
+                <Link href="mailto:sanchez.alvarez.ruben@gmail.com" target={"_blank"}>Contact</Link>
+
+              </div>
+
             </div>
           </div>
         </Layout>
