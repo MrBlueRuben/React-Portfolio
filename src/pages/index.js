@@ -26,8 +26,8 @@ export default function Home() {
                 creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype
                 to the final product.
               </p>
-              <div>
-                <Link href="/RubenSanchez.pdf" target={"_blank"}>Resume</Link>
+              <div className='flex items-center self-start mt-2'>
+                <Link href="/RubenSanchez.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark rounded'>Resume</Link>
                 <Link href="mailto:sanchez.alvarez.ruben@gmail.com" target={"_blank"}>Contact</Link>
 
               </div>
