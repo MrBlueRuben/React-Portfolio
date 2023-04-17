@@ -15,11 +15,11 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
+            <div className='w-1/2 flex flex-column items-center self-center'>
               <Image src={profilePic} alt='Ruben Sánchez' className='w-full h-auto' />
             </div>
             <div>
-              <AnimatedText text="Extremely motivated web developer" className='!text-6xl'/>
+              <AnimatedText text="Extremely motivated web developer" className='!text-6xl !text-left'/>
               <p>
                 I am a web developer with a passion for learning new technologies and
                 creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype

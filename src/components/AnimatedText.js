@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const AnimatedText = ({text, className=""}) => {
   return (
@@ -6,7 +7,7 @@ const AnimatedText = ({text, className=""}) => {
       <h1 className= {`inline-block w-full text-dark font-dark capitalize text-8xl ${className}` }>
         {
         text.split(" ").map((word, index) =>
-        <span key={word+'-'+index}>
+        <span key={word+'-'+index} className='inline-block'>
           {word}&nbsp;
         </span>)
         }
