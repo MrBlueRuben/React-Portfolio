@@ -1,4 +1,5 @@
 import AnimatedText from '@/components/AnimatedText';
+import { LinkArrow } from '@/components/Icons';
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -27,7 +28,7 @@ export default function Home() {
                 to the final product.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href="/RubenSanchez.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark rounded'>Resume</Link>
+                <Link href="/RubenSanchez.pdf" target={"_blank"} className='flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark rounded' download={true}>Resume <LinkArrow className={"w-6 ml-1"}/></Link>
                 <Link href="mailto:sanchez.alvarez.ruben@gmail.com" target={"_blank"}>Contact</Link>
 
               </div>
