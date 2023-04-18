@@ -23,7 +23,7 @@ export default function Home() {
             <div>
               <AnimatedText text="Extremely motivated web developer" className='!text-6xl !text-left'/>
               <p className='my-4 text-base font-medium'>
-                I am a web developer with a passion for learning new technologies and
+                I am a web developer with passion for learning new technologies and
                 creating new projects. Working with the right technical workflow, from designing your wireframe & mockup, testing your UX with a prototype
                 to the final product.
               </p>
