@@ -36,6 +36,9 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
+        <div>
+          <Image src={} alt='' className='w-full h-auto'/>
+        </div>
       </main>
     </>
   )
