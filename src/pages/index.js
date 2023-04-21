@@ -6,7 +6,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 import profilePic from "public/RubenNoBg.png";
-
+// import { lightBulb } from "public/images/svgs/mix.svg";
+import { lightBulb } from "public/images/svgs/mix.svg";
 
 export default function Home() {
   return (
@@ -36,8 +37,8 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div>
-          <Image src={} alt='' className='w-full h-auto'/>
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt='Light bulb' className='w-full h-auto' />
         </div>
       </main>
     </>
